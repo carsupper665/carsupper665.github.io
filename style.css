@@ -1,0 +1,216 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #606060;
+}
+
+h1 {
+    font-size: 36px;
+    color: #606060;
+    margin-top: 20px;
+}
+
+.tagline {
+    font-size: 18px;
+    color: #555;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #606060;
+    border-bottom: 2px solid #606060;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.about p, .skills ul, .contact p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills li {
+    background-color: #606060;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.skills li:hover {
+    transform: scale(1.01);
+
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f4f4f9;
+    transition: background-color 0.5s ease;
+}
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+nav {
+    background-color: #007bff;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #ffdd57;
+}
+
+
+main {
+    margin: 20px;
+    text-align: center;
+}
+.profile-picture {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #333;
+    transition: transform 0.3s;
+}
+.profile-picture:hover {
+    transform: scale(1.1);
+}
+.bio {
+    margin-top: 15px;
+    animation: fadeIn 1s ease-in-out;
+}
+.bio h2 {
+    margin-top: 10px;
+    color: #333;
+}
+.bio p {
+    margin: 10px 0;
+    color: #555;
+}
+.skills, .experience, .contact {
+    margin: 20px 0;
+    animation: fadeIn 1s ease-in-out;
+}
+.skills h3, .experience h3, .contact h3 {
+    color: #333;
+}
+.skills .skill, .experience .job {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 0;
+    transition: transform 0.3s;
+}
+.skills .skill:hover, .experience .job:hover {
+    transform: translateY(-5px);
+}
+
+.skills .skill-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.skills .skill-bar div {
+    background-color: #007bff;
+    height: 20px;
+    width: 0;
+    transition: width 1s;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-form input, .contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button {
+    width: 50%;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
